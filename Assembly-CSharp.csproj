@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C6981AD7-9D70-25F8-565F-B4817AB890B4}</ProjectGuid>
+    <ProjectGuid>{8D03B550-6B52-17CB-ECD0-0541F4D014AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\SlizePlatform.cs" />
     <Compile Include="Assets\Scripts\KolodActive.cs" />
     <Compile Include="Assets\Scripts\Player\MovePlayer.cs" />
     <Compile Include="Assets\Scripts\Data\DetectionActivation.cs" />
@@ -64,7 +65,6 @@
     <Compile Include="Assets\Scripts\Data\SceneControler.cs" />
     <Compile Include="Assets\Scripts\Enemy\MoveDestroyBullet.cs" />
     <Compile Include="Assets\Scripts\JumperPlatform.cs" />
-    <Compile Include="Assets\Scripts\SlizePlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
